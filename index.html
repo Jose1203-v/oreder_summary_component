@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/icons/favicon-32x32.png" type="image/png">
+        <title>Order summary component</title>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/estilos-main.css">
+    </head>
+
+    <body>
+        <!-- Elemento img para la imágen  de fondo de la pagina.-->
+        <img src="img/backgrounds/pattern-background-desktop.svg" class="img-fondo">
+
+        <!-- Elemento div para el contenedor principal del card. -->
+        <div class="contenedor">
+
+            <!-- Elemento header del card. -->
+            <header class="header">
+
+                <!-- Elemento  img para la imágen del card. -->
+                <img src="img/icons/illustration-hero.svg" class="header__img">
+
+            </header>
+
+            <!-- Elemento div para contener las secciones del card. -->
+            <div class="contenedor-sections">
+
+                <!-- Elemento section para la sección principal. -->
+
+                <section class="contenedor-sections__section contenedor-sections__section--main">
+
+                <main class="main">
+
+                    <header class="main__header">
+                        <h1 class="main__title">Order Summary</h1>
+                    </header>
+
+                    <p class="main__texto">
+                        You can now listen to millions of songs,<br>
+                        audiobooks, and podcasts on any device<br>
+                        any where you like!<br>
+                    </p>
+
+                </main>
+
+                </section>
+
+                <!-- Elemento section para la sección de precio. -->
+
+                <section class="contenedor-sections__section contenedor-sections__section--precio" >
+
+                    <div class="contenedor-info">
+
+                        <img src="img/icons/icon-music.svg" class="contedor-info__icono">
+
+                        <div class="contenedor-info__seccion-precio">
+
+                            <h2 class="contenedor-info__title">Annual Plan</h2>
+                            <p class="contenedor-info__precio">159.99/year</p>
+
+                        </div>
+
+                        <span class="connedor-info__btn"><a href="#">Change</a></span>
+                    </div>
+
+                </section>
+
+                <!-- Elemento section para la sección de orden de pago. -->
+
+                <section class="contenedor-sections__section contenedor-sections__section--pago" >
+
+                    <div class="contenendor-sections__btn contenedor-sections__btn--proceed"><a href="#">Proceed to ayment</a></div>
+
+                    <span class="contendor-sections__btn contenedor-sections__btn--cancel"><a href="#">Cancel Order</a></span>
+                    
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
